@@ -16,8 +16,8 @@ export const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src={Logo} alt="TaskMate Logo" />
-        <span>TaskMate</span>
+        <img src={Logo} alt="TaskNote Logo" />
+        <span>TaskNote</span>
       </div>
       <div className="themeSelector">
         <span onClick={() => setTheme("light")} className={theme === "light" ? "light activeTheme" : "light"}></span>
